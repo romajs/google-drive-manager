@@ -5,10 +5,17 @@ Custom google api rest service manager for [googleapis](https://github.com/googl
 Focused to wrap the official api for easy usage of common tasks such as create folders and upload files.
 **And its fully promised!**
 
+### Requires
+
+Node.js (nodejs)
+Node Package Manager (npm)
+
 ### Install
 
+Download/clone repository and run:
+
 ```sh
-./setup.sh
+npm install
 ```
 
 ### Usage
