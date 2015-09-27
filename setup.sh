@@ -6,7 +6,7 @@ if [[ -z $(command -v nodejs) ]]; then
 	curl -sL https://deb.nodesource.com/setup | sudo bash - && sudo apt-get install -y nodejs
 fi
 
-declare -a MODULES=("googleapis" "google-auth-library" "jquery-deferred" "path")
+declare -a MODULES=("googleapis" "google-auth-library" "path" "q")
 
 for MODULE in "${MODULES[@]}"
 do

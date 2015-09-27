@@ -1,0 +1,17 @@
+{
+  "name": "google-drive-manager",
+  "version": "0.0.1",
+  "author": "romajs",
+  "description": "Google Drive Manager",
+  "main": "./lib/GoogleDriveManager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romajs/google-drive-manager.git"
+  },
+  "dependencies": {
+    "googleapis": "~2.1.3",
+    "google-auth-library": "~0.9.6",
+    "q": "~1.4.1",
+    "path": "~0.12.7"
+  }
+}
