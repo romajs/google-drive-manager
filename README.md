@@ -1,29 +1,33 @@
 google-drive-manager
 ===
 
-Custom google api rest service manager for (googleapis) [https://github.com/google/google-api-nodejs-client/], wraps it for easy usage of common tasks such as create folders and upload files.
+Custom google api rest service manager for [googleapis](https://github.com/google/google-api-nodejs-client/).
+Focused to wrap the official api for easy usage of common tasks such as create folders and upload files.
+**And its fully promised!**
 
 ### Install
 
-``
+```sh
 ./setup.sh
-``
+```
 
 ### Usage
 
-``
+```js
 var googleDriveManager = require('./lib/GoogleDriveManager');
-``
+```
 
 ### Example
 
 For more information please see **example.js**, run as:
 
-``
+```sh
 nodejs example.js client_secret.json 0B_SPtvg96z_ZflJSN0x test1.txt test2.txt test3.txt
-``
+```
 
-### Methods available
+### Methods available.
+
+Fully promised methods
 
 * authorize
 
