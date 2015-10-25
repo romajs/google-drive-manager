@@ -32,9 +32,9 @@ nodejs example.js client_secret.json 0B_SPtvg96z_ZflJSN0x test1.txt test2.txt te
 
 Its a little bit complicated example but should demonstrate all suported features, it requires three parameters:
 
-1 - client secret json file location
-2 - google drive parent folder id
-3 - files to be upload
+1. client secret json file location
+2. google drive parent folder id
+3. files to be upload
 
 ### Methods available
 
