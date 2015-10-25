@@ -19,7 +19,7 @@ npm install
 ### Usage
 
 ```js
-var googleDriveManager = require('./lib/GoogleDriveManager');
+var googleDriveManager = require('google-drive-manager');
 ```
 
 ### Example
@@ -29,6 +29,12 @@ For more information please see **example.js**, run as:
 ```sh
 nodejs example.js client_secret.json 0B_SPtvg96z_ZflJSN0x test1.txt test2.txt test3.txt
 ```
+
+Its a little bit complicated example but should demonstrate all suported features, it requires three parameters:
+
+1 - client secret json file location
+2 - google drive parent folder id
+3 - files to be upload
 
 ### Methods available
 
